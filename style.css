@@ -1,0 +1,48 @@
+:root {
+  --primary-color: #ffffff;
+  --accent-color: #000000;
+  --text-color: #000000;
+  --background-color: #ffffff;
+  --link-color: #333333;
+  --button-bg: #000000;
+  --button-text: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: var(--primary-color);
+  padding: 1em;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: var(--link-color);
+  font-weight: bold;
+}
+
+.button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  padding: 0.5em 1em;
+  margin: 1em 0.5em;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hero, .who-we-are, .what-you-can-do, .features, .cta {
+  padding: 2em;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
