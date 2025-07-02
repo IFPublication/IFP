@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us – IF Publication</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="logo.png" alt="IF Publication Logo" class="logo"></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="corevalues.html">Core Values</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact-page">
+    <section class="contact-hero">
+      <h1>Contact Us</h1>
+      <p>Have questions, suggestions, or want to collaborate? We’d love to hear from you. Drop us a message and we'll get back to you soon.</p>
+    </section>
+
+    <section class="contact-form">
+      <form action="mailto:Isabella.L.Ford@ifpublication.com" method="POST" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 IF Publication. All rights reserved.</p>
+  </footer>
+</body>
+</html>
