@@ -3,6 +3,8 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   text-align: center;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 /* Header */
@@ -22,6 +24,7 @@ nav a {
 /* Section spacing */
 section {
   margin: 40px 0;
+  padding: 0 10px;
 }
 
 /* Remove bullets and spacing from lists */
@@ -29,6 +32,22 @@ ul {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
+}
+
+/* Tag styling */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 10px;
+}
+
+.tag {
+  background-color: #ffe9a9;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
 }
 
 /* Heading spacing */
@@ -44,4 +63,24 @@ footer {
   font-size: 0.9em;
 }
 
+/* Links */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
 
+a:hover {
+  text-decoration: underline;
+}
+
+/* Project and portfolio item spacing */
+.project, .portfolio-item {
+  margin: 15px 0;
+}
+
+/* Availability icons layout */
+.availability span {
+  display: inline-block;
+  margin: 5px 10px;
+  font-size: 1.2rem;
+}
