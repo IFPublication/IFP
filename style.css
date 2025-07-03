@@ -84,3 +84,24 @@ a:hover {
   margin: 5px 10px;
   font-size: 1.2rem;
 }
+
+/* IF Law Sub-Navigation */
+.sub-nav {
+  background-color: #f9f9f9;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.sub-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.sub-nav a:hover {
+  color: #000;
+  text-decoration: underline;
+}
