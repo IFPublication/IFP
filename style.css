@@ -9,43 +9,16 @@ body {
 
 /* Header */
 header {
-  padding: 20px 0 10px 0;
-  border: none;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
 }
 
 /* Navigation */
-nav {
-  background-color: #ffffff;
-  padding-bottom: 10px;
-}
-
 nav a {
   margin: 0 10px;
   text-decoration: none;
   font-weight: bold;
   color: black;
-}
-
-/* IF Law Sub-Navigation */
-.sub-nav {
-  background-color: #f9f9f9;
-  padding: 10px 0;
-  text-align: center;
-  margin-top: 0;
-  border: none; /* remove any leftover lines */
-}
-
-.sub-nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #444;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
-
-.sub-nav a:hover {
-  color: #000;
-  text-decoration: underline;
 }
 
 /* Section spacing */
@@ -79,5 +52,56 @@ ul {
 
 /* Heading spacing */
 h2, h3, h4, h5 {
-  margin-bottom: 1
+  margin-bottom: 10px;
+}
 
+/* Footer */
+footer {
+  margin-top: 60px;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+  font-size: 0.9em;
+}
+
+/* Links */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Project and portfolio item spacing */
+.project, .portfolio-item {
+  margin: 15px 0;
+}
+
+/* Availability icons layout */
+.availability span {
+  display: inline-block;
+  margin: 5px 10px;
+  font-size: 1.2rem;
+}
+
+/* IF Law Sub-Navigation */
+.sub-nav {
+  background-color: #f9f9f9;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.sub-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.sub-nav a:hover {
+  color: #000;
+  text-decoration: underline;
+}
