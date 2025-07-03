@@ -90,8 +90,10 @@ a:hover {
   background-color: #f9f9f9;
   padding: 10px 0;
   text-align: center;
+  border-top: 1px solid #ccc;  /* ADD THIS LINE */
   border-bottom: 1px solid #ddd;
 }
+
 
 .sub-nav a {
   margin: 0 15px;
